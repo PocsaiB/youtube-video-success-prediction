@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\(r'C:\\\\Users\\\\pocsa\\\\PycharmProjects\\\\gepiProj\\\\youtube_trending.ipynb','r',encoding='utf-8'\\)\\); [print\\(f'Cell {i}: type={c[\\\\\"cell_type\\\\\"]}, src={repr\\(\\\\\"\\\\\".join\\(c[\\\\\"source\\\\\"]\\)[:80]\\)}'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c ' *)",
+      "Bash(python patch_notebook.py)",
+      "Bash(del \"C:\\\\Users\\\\pocsa\\\\PycharmProjects\\\\gepiProj\\\\patch_notebook.py\")",
+      "Bash(python patch2_notebook.py)"
+    ]
+  }
+}
