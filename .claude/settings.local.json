@@ -5,7 +5,8 @@
       "Bash(python -c ' *)",
       "Bash(python patch_notebook.py)",
       "Bash(del \"C:\\\\Users\\\\pocsa\\\\PycharmProjects\\\\gepiProj\\\\patch_notebook.py\")",
-      "Bash(python patch2_notebook.py)"
+      "Bash(python patch2_notebook.py)",
+      "Bash(python build_new_notebook.py)"
     ]
   }
 }
